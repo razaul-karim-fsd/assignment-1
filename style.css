@@ -275,6 +275,11 @@ The Vision of Future Section Start
 .vision-yuns {
     padding: 48px 24px;
 }
+.vision .container .nobel p {
+
+    margin-top: 32px;
+    background-image: url(assets/quote-bg.png);
+}
 
 /* News Section Start */
 
