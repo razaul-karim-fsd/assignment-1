@@ -2,7 +2,7 @@
 /* font-family: "Fira Sans", serif; */
 
 
-*  {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,14 +12,17 @@ body {
     background: rgb(245, 245, 245);
     font-family: "Fira sans", sans-serif;
 }
+
 .section-margin {
     margin-bottom: 100px;
 }
-.container{
+
+.container {
     width: 1280px;
     margin: 0 auto;
 
 }
+
 p {
     font-size: 16px;
     font-weight: normal;
@@ -70,6 +73,7 @@ p {
     font-weight: bold;
     color: #0E0E0E;
 }
+
 .ntainer .banner.container {
     background-color: #C6E4D6;
 }
@@ -92,6 +96,7 @@ p {
     letter-spacing: 0%;
     text-align: left;
 }
+
 .container .banner-content h1 {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
@@ -121,7 +126,7 @@ p {
 
 
 
- .pillars-title {
+.pillars-title {
     margin-top: 80px;
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
@@ -130,7 +135,7 @@ p {
     line-height: 48px;
     letter-spacing: 0%;
     text-align: left;
- }
+}
 
 .pillars-container {
     display: flex;
@@ -159,7 +164,7 @@ p {
     text-align: left;
 }
 
-.pillar-decription { 
+.pillar-decription {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
@@ -209,6 +214,7 @@ The Vision of Future Section Start
     padding: 24px;
     background: rgba(84, 144, 245, 0.2);
 }
+
 .digital .digital-btn {
     margin-top: 24px;
     padding: 11px 20px;
@@ -272,21 +278,46 @@ The Vision of Future Section Start
     border: none;
 }
 
-.vision-yuns {
-    padding: 48px 24px;
+.vision .container .nobel {
+    margin-top: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    /* background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat; */
+    padding: 24px 24px 48px;
 }
+
+.vision .container .nobel .img {
+    padding-top: 24px;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+}
+
 .vision .container .nobel p {
 
-    margin-top: 32px;
-    background-image: url(assets/quote-bg.png);
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.vision .container .nobel h3 {
+    margin: 12px 0 4px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 /* News Section Start */
-
-.news {
-    margin-top: 24px;
-
-}
 .news-title {
     padding-bottom: 24px;
     color: rgb(14, 14, 14);
@@ -296,7 +327,7 @@ The Vision of Future Section Start
     line-height: 48px;
     letter-spacing: 0%;
     text-align: left;
-    
+
 }
 
 .news-description {
@@ -311,24 +342,18 @@ The Vision of Future Section Start
 }
 
 .satellite {
+    margin-bottom: 30px;
     display: flex;
     padding: 48px;
     border-radius: 24px;
     background: rgb(255, 255, 255);
+    gap: 24px;
 }
 
-/* .satellite-img {
+.satellite .satellite-img img {
     border-radius: 24px;
-} */
-
-.satellite .satellite-details {
-    padding-left: 32px;
-
+    display: block;
 }
-
-/* .satellite .satellite-img {
-    border-radius: 24px;
-} */
 
 .satellite .satellite-details h4 {
     color: rgba(14, 14, 14, 0.8);
@@ -343,7 +368,6 @@ The Vision of Future Section Start
 .satellite .satellite-details ul {
     display: flex;
     list-style-type: none
-    
 }
 
 .satellite .satellite-details ul li {
@@ -368,9 +392,8 @@ The Vision of Future Section Start
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
-    
-}
 
+}
 
 .satellite .satellite-details button {
     color: rgb(255, 255, 255);
@@ -395,10 +418,11 @@ The Vision of Future Section Start
 }
 
 .challenge .challenge-content {
- text-align: center;
- max-width: 750px;
- margin: 0 auto;
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto;
 }
+
 .challenge .challenge-content p {
     margin: 16px 0 24px;
 }
@@ -412,14 +436,17 @@ The Vision of Future Section Start
     background-color: #fff;
     border-radius: 16px;
 }
+
 .challenge .challenge-content .input-box .text-input {
     width: 100%;
     height: 100%;
     border: none;
     outline: none;
     border-radius: 16px 0 0 16px;
-
+    color: rgba(14, 14, 14, 0.3);
+    padding-left: 40px;
 }
+
 .challenge .challenge-content .input-box .subscribe-btn {
     height: 56px;
     padding: 0 50px;
@@ -428,6 +455,5 @@ The Vision of Future Section Start
     background-color: #006A50;
     border-radius: 0 16px 16px 0;
     color: #FFFFFF;
-    
-}
 
+}
