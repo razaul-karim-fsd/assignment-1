@@ -168,6 +168,220 @@ p {
     letter-spacing: 0%;
     text-align: left;
 }
+
+
+/* 
+The Vision of Future Section Start 
+*/
+
+.vision-title {
+    color: rgb(14, 14, 14);
+    margin-top: 80px;
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.future-description {
+    margin-top: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.future {
+    display: flex;
+    gap: 24px;
+}
+
+.digital {
+    margin-top: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+    background: rgba(84, 144, 245, 0.2);
+}
+.digital .digital-btn {
+    margin-top: 24px;
+    padding: 11px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    border: none;
+}
+
+.green {
+    margin-top: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+    background: rgb(198, 228, 214);
+}
+
+.green .green-btn {
+    margin-top: 24px;
+    padding: 11px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    border: none;
+}
+
+.modern {
+    margin-top: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+    background: rgb(247, 235, 207);
+}
+
+.modern .modern-btn {
+    margin-top: 24px;
+    padding: 11px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    border: none;
+}
+
+.vision-yuns {
+    padding: 48px 24px;
+}
+
+/* News Section Start */
+
+.news {
+    margin-top: 24px;
+
+}
+.news-title {
+    padding-bottom: 24px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+
+.news-description {
+    padding-bottom: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.satellite {
+    display: flex;
+    padding: 48px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+}
+
+/* .satellite-img {
+    border-radius: 24px;
+} */
+
+.satellite .satellite-details {
+    padding-left: 32px;
+
+}
+
+/* .satellite .satellite-img {
+    border-radius: 24px;
+} */
+
+.satellite .satellite-details h4 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.satellite .satellite-details ul {
+    display: flex;
+    list-style-type: none
+    
+}
+
+.satellite .satellite-details ul li {
+    padding-top: 12px;
+    margin-right: 12px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.satellite .satellite-details p {
+    padding: 12px 0;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+
+
+.satellite .satellite-details button {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 13px 26px;
+    border: none;
+}
+
+
 .challenge .container {
     background-color: #C6E4D6;
     padding: 80px 0;
