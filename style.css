@@ -410,6 +410,84 @@ The Vision of Future Section Start
 }
 
 
+
+/* Donate Section Start */
+
+.donate-contend {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.donate-contend h3 {
+    padding: 24px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.donate-contend p {
+    width: 1104px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.donate-contend ul {
+    display: flex;
+    list-style-type: none
+}
+
+.donate-contend ul li {
+    padding: 40px;
+    margin : 32px 24px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.donate-contend input {
+    width: 1032px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    border: none;
+}
+
+.donate-contend button {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px;
+    border: none;
+}
+
 .challenge .container {
     background-color: #C6E4D6;
     padding: 80px 0;
@@ -457,3 +535,33 @@ The Vision of Future Section Start
     color: #FFFFFF;
 
 }
+
+
+.foot  {
+    margin: 0 auto;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 50px 0;
+    
+}
+
+.foot p {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 32px;
+}
+
+ .foot ul {
+    display: flex;
+    list-style-type: none
+ }
+
+
+ .foot ul li {
+    padding-top: 32px;
+ }
