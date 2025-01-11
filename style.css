@@ -13,6 +13,7 @@ body {
     font-family: "Fira sans", sans-serif;
 }
 
+
 .section-margin {
     margin-bottom: 100px;
 }
@@ -21,6 +22,13 @@ body {
     width: 1280px;
     margin: 0 auto;
 
+}
+button:hover {
+    background-color: red;
+    box-shadow: 0 0 20px red;
+    cursor: pointer;
+    transition-duration: .5s;
+    color: #fff;
 }
 
 p {
@@ -63,6 +71,9 @@ p {
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
 
+}
+.navber .container .btn .sign-in-btn:hover {
+    background-color: red;
 }
 
 
@@ -151,6 +162,11 @@ p {
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 24px;
+    transition-duration: .3s;
+}
+.pillar:hover {
+    background-color: chartreuse;
+    color: black;
 }
 
 .pillar-title {
@@ -213,6 +229,19 @@ The Vision of Future Section Start
     border-radius: 16px;
     padding: 24px;
     background: rgba(84, 144, 245, 0.2);
+    transition-duration: .3s;
+}
+.vision .container .future .digital:hover {
+    background-color: rgb(84, 144, 245);
+    color: white;
+}
+.vision .container .future .green:hover {
+    background-color:  rgb(9, 161, 92);
+    color: white;
+}
+.vision .container .future .modern:hover {
+    background-color: rgb(255, 194, 57);
+    color: white;
 }
 
 .digital .digital-btn {
@@ -237,6 +266,7 @@ The Vision of Future Section Start
     border-radius: 16px;
     padding: 24px;
     background: rgb(198, 228, 214);
+    transition-duration: .3s;
 }
 
 .green .green-btn {
@@ -261,7 +291,9 @@ The Vision of Future Section Start
     border-radius: 16px;
     padding: 24px;
     background: rgb(247, 235, 207);
+    transition-duration: .3s;
 }
+
 
 .modern .modern-btn {
     margin-top: 24px;
@@ -304,6 +336,7 @@ The Vision of Future Section Start
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+    text-align: justify;
 }
 
 .vision .container .nobel h3 {
@@ -315,6 +348,57 @@ The Vision of Future Section Start
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+
+/* mattears style */
+.mattears .mattears-content {
+    background-color: #FFFFFF;
+    padding: 32px;
+    border-radius: 24px;
+    margin-top: 24px;
+}
+
+ .table-area {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+ .table-area .mattears-head {
+    background-color: #d4edda;
+    color: #0E0E0E;
+    padding: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    display: flex;
+    justify-content: space-between;
+}
+.questions-box {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border: .5px solid rgba(14, 14, 14, 0.15);
+}
+ .questions-box .question {
+    width: 100%;
+    border-right: 2px solid rgba(14, 14, 14, 0.15);
+    font-size: 16px;
+    padding: 40px;
+    color: #0E0E0E;
+}
+ .mattears-content .selection {
+    width: 220px;
+    padding: 25px;
+    height: 100px;
+    border-left: .5px rgba(14, 14, 14, 0.15);
+}
+.selection select {
+    background-color: #c6e4d6;
+    border-radius: 8px;
+    width: 152px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 8px;
 }
 
 /* News Section Start */
@@ -392,6 +476,7 @@ The Vision of Future Section Start
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+    text-align: justify;
 
 }
 
@@ -460,16 +545,30 @@ The Vision of Future Section Start
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
+    transition-duration: .5s;
+}
+.donate-contend ul li:hover {
+    background-color: green;
+    color: black;
+    box-shadow: 0 0 20px red;
+}
+
+.donate-contend .tk {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
 }
 
 .donate-contend input {
     width: 1032px;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
     box-sizing: border-box;
     border-bottom: 1px solid rgba(14, 14, 14, 0.15);
     background: rgb(255, 255, 255);
     border: none;
+    outline: none;
 }
 
 .donate-contend button {
@@ -480,6 +579,9 @@ The Vision of Future Section Start
     line-height: 22px;
     letter-spacing: 0%;
     text-align: left;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.1);
     border-radius: 8px;
@@ -535,17 +637,21 @@ The Vision of Future Section Start
     color: #FFFFFF;
 
 }
+.footer {
+    background-color: #fff;
+}
 
 
-.foot  {
-    margin: 0 auto;
+.footer-content  {
     text-align: center;
-    background: rgb(255, 255, 255);
     padding: 50px 0;
     
 }
+.footer-content hr {
+    margin: 30px 0;
+}
 
-.foot p {
+.footer-content h3 {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 32px;
@@ -556,12 +662,16 @@ The Vision of Future Section Start
     padding-bottom: 32px;
 }
 
- .foot ul {
+ .footer-content ul {
+    align-items: center;
+    justify-content: center;
     display: flex;
     list-style-type: none
  }
 
 
- .foot ul li {
-    padding-top: 32px;
+ .footer-content ul li img {
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
  }
